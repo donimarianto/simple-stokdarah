@@ -18,6 +18,7 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{ route('FormInputDonor') }}">Input Donor</a>
                     <a class="dropdown-item" href="{{ route('pegawai') }}">Input Petugas</a>
+                    <a class="dropdown-item" href="{{ route('formRs') }}">Input RS</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
@@ -28,6 +29,7 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="{{ route('viewDataDonor') }}">Data Donor</a>
                     <a class="dropdown-item" href="{{ route('viewPegawai') }}">Data Petugas</a>
+                    <a class="dropdown-item" href="{{ route('viewRs') }}">Data RS</a>
                 </div>
             </li>
         </ul>

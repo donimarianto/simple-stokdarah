@@ -5,6 +5,7 @@ use App\Http\Controllers\DonorController;
 use App\Http\Controllers\DarahController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\Home;
+use App\Http\Controllers\RsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,4 +35,7 @@ Route::get('editPegawai{id}',[PegawaiController::class,'editPegawai'])->name('ed
 Route::get('Delete{id}',[PegawaiController::class,'Delete'])->name('Delete');
 Route::post('editProses{id}',[PegawaiController::class,'editProses'])->name('editProses');
 Route::post('savePegawai',[PegawaiController::class,'savePegawai'])->name('savePegawai');
+Route::get('formRs',[RsController::class,'formRs'])->name('formRs');
+Route::get('viewRs',[RsController::class,'viewRs'])->name('viewRs');
+Route::post('saveRs',[RsController::class,'saveRs'])->name('saveRs');
 
